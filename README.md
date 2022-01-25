@@ -14,6 +14,8 @@ This tool enables the user to assign different materials from a local database (
 
 The project support a notice, where the main aspects of the utility are detailed, for the assumed user and for the assumed developer.
 
+A preview scene is available under the directory "preview_scenes"; Indigo files and directories that might be opened with the utility are located in the sub-directory "mat_db".
+
 The executable was generated with "pyinstaller". Source code is located in the directory "src", at the root of the project.
 
 ## Dev Note
