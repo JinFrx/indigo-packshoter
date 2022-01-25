@@ -4,6 +4,12 @@
   <img src="https://github.com/JinFrx/indigo-packshoter/blob/main/showcase.PNG" alt="showcase image" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />
 </p>
 
+<p align=center>
+  <img src="https://github.com/JinFrx/indigo-packshoter/blob/main/packshot_example.png" alt="packshot example" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />
+</p>
+
+<p align=center>Example of packshot: a Transformer, with different materials assigned on each model of the object through the utility</p>
+
 ## Description
 
 A simple graphical tool in Python 3.9 for Indigo Renderer engine made as part of a university project (2022).
