@@ -5,7 +5,7 @@
 </p>
 
 <p align=center>
-  <img src="https://github.com/JinFrx/indigo-packshoter/blob/main/packshot_example.png" alt="packshot example" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />
+  <img src="https://github.com/JinFrx/indigo-packshoter/blob/main/packshot_example.png" alt="packshot example" style="width: 375px; max-width: 100%; height: auto" title="Click to enlarge picture" />
 </p>
 
 <p align=center>Example of packshot: a Transformer, with different materials assigned on each model of the object through the utility</p>
