@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scenedata>
+	<material>
+		<uid>8</uid>
+		<name>Tex_0255_0.dds</name>
+		<diffuse>
+			<albedo>
+				<constant>
+					<rgb>
+						<rgb>0.5843137502670288 0.5843137502670288 0.5843137502670288</rgb>
+						<gamma>1</gamma>
+					</rgb>
+				</constant>
+			</albedo>
+		</diffuse>
+	</material>
+
+	<material>
+		<uid>9</uid>
+		<name>Tex_0258_0.dds</name>
+		<diffuse>
+			<albedo>
+				<constant>
+					<rgb>
+						<rgb>0.5843137502670288 0.5843137502670288 0.5843137502670288</rgb>
+						<gamma>1</gamma>
+					</rgb>
+				</constant>
+			</albedo>
+		</diffuse>
+	</material>
+
+	<material>
+		<uid>10</uid>
+		<name>Tex_0258_0.dd1</name>
+		<diffuse>
+			<albedo>
+				<constant>
+					<rgb>
+						<rgb>0.5843137502670288 0.5843137502670288 0.5843137502670288</rgb>
+						<gamma>1</gamma>
+					</rgb>
+				</constant>
+			</albedo>
+		</diffuse>
+	</material>
+
+	<material>
+		<uid>11</uid>
+		<name>Tex_0258_0.dd2</name>
+		<diffuse>
+			<albedo>
+				<constant>
+					<rgb>
+						<rgb>0.5843137502670288 0.5843137502670288 0.5843137502670288</rgb>
+						<gamma>1</gamma>
+					</rgb>
+				</constant>
+			</albedo>
+		</diffuse>
+	</material>
+
+	<model2>
+		<uid>12</uid>
+		<name>Mesh_0256</name>
+		<geometry_uid>13</geometry_uid>
+		<rotation>
+			<matrix>
+				-0.009999998845160007 0 0 0 -0.009999999776482582 0 0 0 -0.009999999776482582 
+			</matrix>
+		</rotation>
+		<keyframe>
+			<time>0</time>
+			<pos>0.0011561763925538673 -0.04552432244772368 0.2124926968855121</pos>
+			<rotation_quaternion>
+				<axis>1 0 0</axis>
+				<angle>2.999903440475464</angle>
+			</rotation_quaternion>
+		</keyframe>
+		<materials>
+			<uid>8</uid>
+		</materials>
+	</model2>
+
+	<mesh>
+		<uid>13</uid>
+		<name>Mesh_0256_mesh</name>
+		<subdivide_pixel_threshold>4</subdivide_pixel_threshold>
+		<view_dependent_subdivision>true</view_dependent_subdivision>
+		<external>
+			<path>transformer_meshes\mesh_16011474828372460874.igmesh</path>
+		</external>
+	</mesh>
+	
+	<model2>
+		<uid>14</uid>
+		<name>Mesh_0259</name>
+		<geometry_uid>15</geometry_uid>
+		<rotation>
+			<matrix>
+				-0.009999998845160007 0 0 0 -0.009999999776482582 0 0 0 -0.009999999776482582 
+			</matrix>
+		</rotation>
+		<keyframe>
+			<time>0</time>
+			<pos>0.0011561763925538673 -0.04552432244772368 0.2124926968855121</pos>
+			<rotation_quaternion>
+				<axis>1 0 0</axis>
+				<angle>2.999903440475464</angle>
+			</rotation_quaternion>
+		</keyframe>
+		<materials>
+			<uid>9</uid>
+		</materials>
+	</model2>
+
+	<mesh>
+		<uid>15</uid>
+		<name>Mesh_0259_mesh</name>
+		<subdivide_pixel_threshold>4</subdivide_pixel_threshold>
+		<view_dependent_subdivision>true</view_dependent_subdivision>
+		<external>
+			<path>transformer_meshes\mesh_12745290674823733113.igmesh</path>
+		</external>
+	</mesh>
+
+	<model2>
+		<uid>16</uid>
+		<name>Mesh_0262</name>
+		<geometry_uid>17</geometry_uid>
+		<rotation>
+			<matrix>
+				-0.009999998845160007 0 0 0 -0.009999999776482582 0 0 0 -0.009999999776482582 
+			</matrix>
+		</rotation>
+		<keyframe>
+			<time>0</time>
+			<pos>0.0011561763925538673 -0.04552432244772368 0.2124926968855121</pos>
+			<rotation_quaternion>
+				<axis>1 0 0</axis>
+				<angle>2.999903440475464</angle>
+			</rotation_quaternion>
+		</keyframe>
+		<materials>
+			<uid>10</uid>
+		</materials>
+	</model2>
+
+	<mesh>
+		<uid>17</uid>
+		<name>Mesh_0262_mesh</name>
+		<subdivide_pixel_threshold>4</subdivide_pixel_threshold>
+		<view_dependent_subdivision>true</view_dependent_subdivision>
+		<external>
+			<path>transformer_meshes\mesh_8305031834763003917.igmesh</path>
+		</external>
+	</mesh>
+
+	<model2>
+		<uid>18</uid>
+		<name>Mesh_0265</name>
+		<geometry_uid>19</geometry_uid>
+		<rotation>
+			<matrix>
+				-0.009999998845160007 0 0 0 -0.009999999776482582 0 0 0 -0.009999999776482582 
+			</matrix>
+		</rotation>
+		<keyframe>
+			<time>0</time>
+			<pos>0.0011561763925538673 -0.04552432244772368 0.2124926968855121</pos>
+			<rotation_quaternion>
+				<axis>1 0 0</axis>
+				<angle>2.999903440475464</angle>
+			</rotation_quaternion>
+		</keyframe>
+		<materials>
+			<uid>11</uid>
+		</materials>
+	</model2>
+
+	<mesh>
+		<uid>19</uid>
+		<name>Mesh_0265_mesh</name>
+		<subdivide_pixel_threshold>4</subdivide_pixel_threshold>
+		<view_dependent_subdivision>true</view_dependent_subdivision>
+		<external>
+			<path>transformer_meshes\mesh_1156348891964700991.igmesh</path>
+		</external>
+	</mesh>
+
+</scenedata>

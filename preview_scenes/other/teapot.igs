@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<scene>
+	<metadata>
+		<scene_name>Teapot</scene_name>
+	</metadata>
+
+	<include>
+		<pathname>base.igs</pathname>
+		<offset_uids>false</offset_uids>
+	</include>
+	
+	
+	<!--
+	# Utah Teapot Reworked
+	# - - - - - - - - - - - - - 
+	# Original model by Martin Newell
+	# Reworked model by Alexander and Arne of Phaxwave
+	# Anyone is free to use this model, but we would like to be credited if it's used.
+	-->
+	
+	
+	<mesh>
+		<uid>1000</uid>
+		<name>Teapot mesh</name>
+		<max_num_subdivisions>0</max_num_subdivisions>
+		<subdivide_pixel_threshold>4</subdivide_pixel_threshold>
+		<subdivide_curvature_threshold>0</subdivide_curvature_threshold>
+		<displacement_error_threshold>0</displacement_error_threshold>
+		<view_dependent_subdivision>true</view_dependent_subdivision>
+		<subdivision_smoothing>true</subdivision_smoothing>
+		<normal_smoothing>true</normal_smoothing>
+		<merge_vertices_with_same_pos_and_normal>false</merge_vertices_with_same_pos_and_normal>
+		<view_dependent_subdivision>true</view_dependent_subdivision>
+		<scale>1</scale>
+		<external>
+			<path>teapot.igmesh</path>
+		</external>
+	</mesh>
+
+	<model2>
+		<uid>1001</uid>
+		<name>Teapot</name>
+		<geometry_uid>1000</geometry_uid>
+		<scale>1</scale>
+		<rotation>
+			<matrix>
+				1 0 0 0 1 0 0 0 1 
+			</matrix>
+		</rotation>
+		<keyframe>
+			<time>0</time>
+			<pos>-0.007140 -0.00 0.153</pos>
+			<rotation_quaternion>
+				<axis>0 0 1</axis>
+				<angle>0.8</angle>
+			</rotation_quaternion>
+		</keyframe>
+		<materials>
+			<material_uid>80</material_uid>
+		</materials>
+	</model2>
+</scene>

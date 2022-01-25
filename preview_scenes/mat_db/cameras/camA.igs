@@ -1,0 +1,26 @@
+<scenedata>
+
+	<camera>
+		<uid>5</uid>
+		<name>Cam_A</name>
+		<aperture_radius>0.0004444530282612264</aperture_radius>
+		<focus_distance>0.4274</focus_distance>
+		<sensor_width>0.035</sensor_width>
+		<lens_sensor_dist>0.06562533005985578</lens_sensor_dist>
+		<exposure_duration>0.5</exposure_duration>
+		<lens_shift_up_distance>0</lens_shift_up_distance>
+		<lens_shift_right_distance>0</lens_shift_right_distance>
+		<autofocus/>
+		<aperture_shape>
+			<circular/>
+		</aperture_shape>
+		<keyframe>
+			<time>0</time>
+			<pos>-0.039940787439380274 -0.22884196664982748 0.32645723948521005</pos>
+		</keyframe>
+		<up>0.10704617929709981 0.5208958950776127 0.8468816812218728</up>
+		<forwards>0.1704750384327485 0.8295461670458967 -0.5317813629780703</forwards>
+		<camera_type>thin-lens-perspective</camera_type>
+	</camera>
+	
+</scenedata>

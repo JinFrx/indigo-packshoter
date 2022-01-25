@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scenedata>
+
+	<camera>
+		<uid>5</uid>
+		<name>Cam_Right</name>
+		<aperture_radius>0.0008593902403008879</aperture_radius>
+		<focus_distance>0.6479</focus_distance>
+		<sensor_width>0.035</sensor_width>
+		<lens_sensor_dist>0.05499975721838634</lens_sensor_dist>
+		<exposure_duration>0.5</exposure_duration>
+		<lens_shift_up_distance>0</lens_shift_up_distance>
+		<lens_shift_right_distance>0</lens_shift_right_distance>
+		<aperture_shape>
+			<circular/>
+		</aperture_shape>
+		<keyframe>
+			<time>0</time>
+			<pos>-0.2592528962489344 -0.03761914413821166 0.24580482224939854</pos>
+		</keyframe>
+		<up>0.12966096552941686 -0.006179621373832514 0.991539129988149</up>
+		<forwards>0.9904149237266433 -0.04720302063642508 -0.1298081418954318</forwards>
+		<camera_type>thin-lens-perspective</camera_type>
+	</camera>
+	
+</scenedata>

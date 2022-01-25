@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scenedata>
+	<material>
+		<name>Green Material</name>
+		<diffuse>
+			<albedo>
+				<constant>
+					<rgb>
+						<rgb>0.0 1.0 0.0</rgb>
+						<gamma>1</gamma>
+					</rgb>
+				</constant>
+			</albedo>
+		</diffuse>
+	</material>
+</scenedata>

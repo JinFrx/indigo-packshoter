@@ -1,0 +1,26 @@
+<scenedata>
+
+	<camera>
+		<uid>5</uid>
+		<name>Cam_B</name>
+		<aperture_radius>0.0004444530282612264</aperture_radius>
+		<focus_distance>0.4274</focus_distance>
+		<sensor_width>0.035</sensor_width>
+		<lens_sensor_dist>0.06562533005985578</lens_sensor_dist>
+		<exposure_duration>0.5</exposure_duration>
+		<lens_shift_up_distance>0</lens_shift_up_distance>
+		<lens_shift_right_distance>0</lens_shift_right_distance>
+		<autofocus/>
+		<aperture_shape>
+			<circular/>
+		</aperture_shape>
+		<keyframe>
+			<time>0</time>
+			<pos>-0.002160975712982961 -0.2772629157460156 0.2948097993113398</pos>
+		</keyframe>
+		<up>0.002711266391266076 0.3529213094024371 0.9356490786636968</up>
+		<forwards>0.007187775228550185 0.9356214695545889 -0.35293172370272297</forwards>
+		<camera_type>thin-lens-perspective</camera_type>
+	</camera>
+
+</scenedata>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scenedata>
+
+	<camera>
+		<uid>5</uid>
+		<name>Cam_Back</name>
+		<aperture_radius>0.0008593902403008879</aperture_radius>
+		<focus_distance>0.6479</focus_distance>
+		<sensor_width>0.035</sensor_width>
+		<lens_sensor_dist>0.05499975721838634</lens_sensor_dist>
+		<exposure_duration>0.5</exposure_duration>
+		<lens_shift_up_distance>0</lens_shift_up_distance>
+		<lens_shift_right_distance>0</lens_shift_right_distance>
+		<aperture_shape>
+			<circular/>
+		</aperture_shape>
+		<keyframe>
+			<time>0</time>
+			<pos>-0.00988633521973523 0.19057133213629818 0.3000805552511346</pos>
+		</keyframe>
+		<up>0.019140211862247736 -0.3376156794830313 0.9410894246866656</up>
+		<forwards>0.053266999024689114 -0.9395807214241804 -0.3381577956264215</forwards>
+		<camera_type>thin-lens-perspective</camera_type>
+	</camera>
+</scenedata>

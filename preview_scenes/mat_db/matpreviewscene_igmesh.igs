@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<scene>
+	<metadata>
+		<scene_name>Indigo Material Preview Scene (10cm)</scene_name>
+	</metadata>
+
+	<renderer_settings>
+		<width>500</width>
+		<height>500</height>
+		
+		<white_point>
+			0.321341 0.331065			
+		</white_point>
+	</renderer_settings>
+
+	<tonemapping>
+		<camera>
+			<ev_adjust>0</ev_adjust>
+			<film_iso>650</film_iso>
+			<response_function_path>data/camera_response_functions/agfapan-apx-400CD.txt</response_function_path>
+		</camera>
+	</tonemapping>
+
+	<env_map>
+		<latlong>
+			<path>../textures/preview_env_map.exr</path>
+			<gain>700000</gain>
+		</latlong>
+	</env_map>
+
+	<camera>
+		<pos>-0.006511 -0.287839 0.326284</pos>
+		<up>-0.000494 0.213288 0.452226</up>
+		<forwards>-0.001048 0.452225 -0.213288</forwards>
+		<aperture_radius>0.00044445302826122657</aperture_radius>
+		<exposure_duration>0.5</exposure_duration>
+		<focus_distance>0.427407</focus_distance>
+		<aspect_ratio>1</aspect_ratio>
+		<sensor_width>0.035000</sensor_width>
+		<lens_sensor_dist>0.06562516502951293</lens_sensor_dist>
+		<!--<white_balance>E</white_balance>-->
+		<aperture_shape>
+			<circular></circular>
+		</aperture_shape>
+		<autofocus/>
+	</camera>
+
+	<material>
+		<name>Default</name>
+		<diffuse>
+			<albedo>
+				<constant><rgb>
+					<rgb>0.95 0.95 0.95</rgb>
+					<gamma>2.2</gamma>
+				</rgb></constant>
+			</albedo>
+		</diffuse>
+	</material>
+
+	<material>
+		<name>null</name>
+		<null_material/>
+	</material>
+
+	<material>
+		<name>ground</name>
+		<diffuse>
+			<texture>
+				<path>../textures/preview_squaretile.png</path>
+				<uv_set>default</uv_set>
+				<exponent>2.300000</exponent>
+				<a>0</a>
+				<b>1</b>
+				<c>0</c>
+			</texture>
+			<albedo>
+				<texture>
+					<texture_index>0</texture_index>
+				</texture>
+			</albedo>
+		</diffuse>
+	</material>
+	
+	<material>
+		<name>previewmaterial</name>
+		<diffuse>
+			<colour>0.8 0.8 0.8</colour>
+		</diffuse>
+	</material>
+
+	<material>
+		<name>base</name>
+		<diffuse>
+			<texture>
+				<path>../textures/preview_logo.jpg</path>
+				<uv_set>default</uv_set>
+				<exponent>2.300000</exponent>
+				<a>0</a>
+				<b>1</b>
+				<c>0</c>
+			</texture>
+			<albedo>
+				<texture>
+					<texture_index>0</texture_index>
+				</texture>
+			</albedo>
+		</diffuse>
+	</material>
+
+	<material>
+		<name>light_2</name>
+		<diffuse>
+			<!--<albedo>
+				<constant><rgb>
+					<rgb>0.8 0.8 0.8</rgb>
+					<gamma>2.2</gamma>
+				</rgb></constant>
+			</albedo>-->
+			<base_emission>
+				<constant>
+					<blackbody>
+						<temperature>6000</temperature>
+						<gain>1.000000</gain>
+					</blackbody>
+				</constant>
+			</base_emission>
+			<!--<layer>1</layer>-->
+		</diffuse>
+	</material>
+
+	<material>
+		<name>light_1</name>
+		<diffuse>
+			<!--<albedo>
+				<constant><rgb>
+					<rgb>0.8 0.8 0.8</rgb>
+					<gamma>2.2</gamma>
+				</rgb></constant>
+			</albedo>-->
+			<base_emission>
+				<constant>
+					<blackbody>
+						<temperature>6000</temperature>
+						<gain>1.000000</gain>
+					</blackbody>
+				</constant>
+			</base_emission>
+			<!--<layer>1</layer>-->
+		</diffuse>
+	</material>
+
+	<material>
+		<name>subsurface bar</name>
+		<diffuse>
+			<texture>
+				<path>../textures/preview_sss-bar.jpg</path>
+				<uv_set>default</uv_set>
+				<exponent>2.300000</exponent>
+				<a>0</a>
+				<b>1</b>
+				<c>0</c>
+			</texture>
+			<albedo>
+				<texture>
+					<texture_index>0</texture_index>
+				</texture>
+			</albedo>
+		</diffuse>
+	</material>
+
+	<mesh>
+		<name>Plane</name>
+		<normal_smoothing>true</normal_smoothing>
+		<external>
+			<path>Plane_0.igmesh</path>
+		</external>
+	</mesh>
+	<mesh>
+		<name>preview_base</name>
+		<normal_smoothing>true</normal_smoothing>
+		<external>
+			<path>preview_base_1.igmesh</path>
+		</external>
+	</mesh>
+	<mesh>
+		<name>base</name>
+		<normal_smoothing>true</normal_smoothing>
+		<external>
+			<path>base_2.igmesh</path>
+		</external>
+	</mesh>
+	<mesh>
+		<name>Plane.003</name>
+		<normal_smoothing>false</normal_smoothing>
+		<external>
+			<path>Plane_003_3.igmesh</path>
+		</external>
+	</mesh>
+	<mesh>
+		<name>Plane.001</name>
+		<normal_smoothing>false</normal_smoothing>
+		<external>
+			<path>Plane_001_4.igmesh</path>
+		</external>
+	</mesh>
+	<mesh>
+		<name>preview_sphere</name>
+		<normal_smoothing>true</normal_smoothing>
+		<external>
+			<path>preview_sphere_5.igmesh</path>
+		</external>
+	</mesh>
+	<mesh>
+		<name>inner_sphere</name>
+		<normal_smoothing>true</normal_smoothing>
+		<external>
+			<path>inner_sphere_6.igmesh</path>
+		</external>
+	</mesh>
+	<mesh>
+		<name>logo.009</name>
+		<normal_smoothing>true</normal_smoothing>
+		<external>
+			<path>logo_009_7.igmesh</path>
+		</external>
+	</mesh>
+	<!-- Plane -->
+	<model>
+		<pos>-0.007112 0.226201 0.152321</pos>
+		<scale>1.0</scale>
+		<rotation>
+			<matrix>
+				1.00000 0.00000 0.00000 0.00000 1.00000 0.00000 0.00000 0.00000 1.00000 
+			</matrix>
+		</rotation>
+		<mesh_name>Plane</mesh_name>
+	</model>
+
+	<!-- preview_base -->
+	<model>
+		<pos>-0.007315 -0.024274 0.152628</pos>
+		<scale>1.0</scale>
+		<rotation>
+			<matrix>
+				1.00000 0.00000 0.00000 0.00000 1.00000 0.00000 0.00000 0.00000 1.00000 
+			</matrix>
+		</rotation>
+		<mesh_name>preview_base</mesh_name>
+	</model>
+
+	<!-- base -->
+	<model>
+		<pos>-0.007117 -0.024048 0.215729</pos>
+		<scale>1.0</scale>
+		<rotation>
+			<matrix>
+				0.39287 0.91959 0.00000 -0.91959 0.39287 0.00000 0.00000 0.00000 1.00000 
+			</matrix>
+		</rotation>
+		<mesh_name>base</mesh_name>
+	</model>
+
+	<!-- Plane.003 -->
+	<model>
+		<pos>-0.510262 0.147763 0.607228</pos>
+		<scale>1.0</scale>
+		<rotation>
+			<matrix>
+				-0.00000 -0.53909 0.84225 -1.00000 0.00000 -0.00000 0.00000 -0.84225 -0.53909 
+			</matrix>
+		</rotation>
+		<mesh_name>Plane.003</mesh_name>
+		<emission_scale>
+			<material_name>light_2</material_name>
+			<measure>luminous_flux</measure>
+			<value>525.000000</value>
+		</emission_scale>
+	</model>
+
+	<!-- Plane.001 -->
+	<model>
+		<pos>0.259167 -0.237556 0.505940</pos>
+		<scale>1.0</scale>
+		<rotation>
+			<matrix>
+				-0.75990 -0.16889 -0.62772 -0.65004 0.19743 0.73380 -0.00000 0.96566 -0.25982 
+			</matrix>
+		</rotation>
+		<mesh_name>Plane.001</mesh_name>
+		<emission_scale>
+			<material_name>light_1</material_name>
+			<measure>luminous_flux</measure>
+			<value>1700.000000</value>
+		</emission_scale>
+	</model>
+
+	<!-- preview_sphere -->
+	<model>
+		<pos>-0.007140 -0.024061 0.214209</pos>
+		<scale>1.0</scale>
+		<rotation>
+			<matrix>
+				0.97428 -0.02279 0.22420 0.20303 0.52050 -0.82937 -0.09780 0.85356 0.51174 
+			</matrix>
+		</rotation>
+		<mesh_name>preview_sphere</mesh_name>
+	</model>
+
+	<!-- inner_sphere -->
+	<model>
+		<pos>-0.006704 -0.024061 0.215128</pos>
+		<scale>1.0</scale>
+		<rotation>
+			<matrix>
+				0.99547 -0.05682 -0.07621 0.05456 0.99802 -0.03145 0.07785 0.02715 0.99660 
+			</matrix>
+		</rotation>
+		<mesh_name>inner_sphere</mesh_name>
+	</model>
+
+	<!-- logo.007 -->
+	<model>
+		<pos>-0.014707 -0.066038 0.223331</pos>
+		<scale>1.0</scale>
+		<rotation>
+			<matrix>
+				0.95136 0.29738 -0.08048 -0.15570 0.23867 -0.95854 -0.26584 0.92445 0.27336 
+			</matrix>
+		</rotation>
+		<mesh_name>logo.009</mesh_name>
+	</model>
+
+</scene>
