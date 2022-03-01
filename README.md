@@ -26,4 +26,4 @@ The executable was generated with "pyinstaller". Source code is located in the d
 
 ## Dev Note
 
-Because this tool was made for the purpose of university work and because there is no interest for me to continue the project, no proper redesign or update are planned at the moment.
+Because this tool was made for the purpose of university work and because there is currently no interest for me to continue the project, no proper redesign or update are planned at the moment.
